@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="topo">
+        <header>
+            <h1 class="velaperfumada">Velas Perfumadas da Nay</h1>
+        </header>
+    </div>
+    <nav>
+        <ul class="flex-container">
+            <div class="index">
+                <li><a href="index.html">Home</a> </li>
+            </div>
+            <div class="detalhes">
+                <li><a href="detalhes.html">Coleções</a></li>
+            </div>
+            <div class="contato">
+                <li><a href="autor.html">Contato</a></li>
+            </div>
+            <div class="administrador">
+                <li><a href="administrador.html">Administrador</a></li>
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <form id="velas">
+            <label for="nome">Nome da Vela: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite a essência da vela">
+            <br><label for="valor"> Preço: </label>
+            <input type="number" id="valor" name="valor" placeholder="Digite o valor da vela" <br>
+            <br><label for="tamanho">Tamanhos de Velas</label>
+            <select id="tamanho" name="tamanho">
+                <option value="30g">30g</option>
+                <option value="50g">50g</option>
+                <option value="100g">100g</option>
+            </select>
+        </form>
+        <br>
+        <br>
+
+        <table>
+            <tr>
+                <th>Modelo</th>
+                <th>Preço</th>
+                <th>Tamanho</th>
+                <th>Editar</th>
+                <th>Apagar</th>
+            </tr>
+            <tr>
+                <td>Baunilha</td>
+                <td>R$ 20,00</td>
+                <td>30g</td>
+                <td> <button> Editar</button></td>
+                <td><button> Apagar</button></td>
+            </tr>
+            <tr>
+                <td>Limão</td>
+                <td>R$ 50,00</td>
+                <td>50g</td>
+                <td> <button> Editar</button></td>
+                <td><button> Apagar</button></td>
+            </tr>
+            <tr>
+                <td>Bamboo</td>
+                <td>R$ 80,00</td>
+                <td>100g</td>
+                <td> <button> Editar</button></td>
+                <td><button> Apagar</button></td>
+            </tr>
+        </table>
+
+    </main>
+    <footer>
+        <p>Nayeli Feitosa</p>
+        <p><a href="https://github.com/NayeliFeitosa">NayGit</a></p>
+    </footer>
+</body>
+
+</html>
